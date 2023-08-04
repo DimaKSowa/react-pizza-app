@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(183, 255, 171);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.header_logo_href {
+    margin-top: 5px;
+    position: absolute;
+    height: 150px;
+}
+
+.header_logo {
+    height: 150px;
+}
+
+.header_cart{
+    position: flex;
+    margin: auto;
+    border: 0;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: larger;
+    cursor: pointer;
+    font-family: 'Nunito Sans', bold;
+    font-weight: 700;
+}
+
+.header_cart_href {
+    position: flex;
+    margin: auto;
+    margin-right: 100px;
+}
+
+main {
+    margin-right: 10%;
+    margin-left: 10%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.pizzaBlock {
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    margin-top: 50px;
+    height: 550px;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    background-color: rgb(0, 180, 0);
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.pizzaBlock_image{
+    border-radius: 5px  ;
+}
+
+footer {
+    height: 200px;
+    background-color: rgb(2, 0, 131);
+    color: white;
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.footer_items{
+    display: inline;
+    margin: auto;
+    width: 33%;
+    text-align: center;
+}
+
+.footer_logo{
+    height: 150px;
+    position: absolute;
+    width: auto;
+}
+
+.notFound_message{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.cart_Main {
+    margin-right: 10%;
+    margin-left: 10%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title_Cart {
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cart_PizzaBlock{
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 10px;
+    width: 51%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.cart_PizzaBlock-image {
+    height: 130px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.cart_PizzaBlock-button {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(28, 142, 0);
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(26, 129, 0);
+    font-weight: 800;
+}
+
+.cart_PizzaBlock-button_close {
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(121, 121, 121);
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.pizzaType{
+    height: 100%;
+    width: 55%;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.pizzaAmount {
+    height: 100%;
+    width: 10%;  
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizzaCount{
+    width: 40px;
+    text-align: center;
+    
+}
+
+.cart_footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.total_price{
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.del{
+    background-color: rgb(255, 28, 28);
+    margin-left: 20px;
+}
