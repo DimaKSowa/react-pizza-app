@@ -4,23 +4,9 @@ import { useState } from "react";
 
 function PizzaBlockCart(props) {
 
-    const [count, setCount] = useState(0)
-  
-
-    function changeAmount() {
-        setCount(prev => prev + 1);
-    }
-    function changeAmountBack() {
-        if (count==0){
-            
-        } else{
-            setCount(prev => prev - 1)
-        }
-    }
-
 
     return (  
-        <div className="cart_PizzaBlock">
+        <div className="cart_PizzaBlock active">
                 <img src={props.image} alt="Pizza" className="cart_PizzaBlock-image"/>
                 <div className="pizzaType">
                     <h3>{props.title}</h3>
